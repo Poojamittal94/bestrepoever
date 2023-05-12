@@ -18,6 +18,16 @@
         </connection>
       </connections>
     </connectionClass>
+    <connectionClass name="testmanager">
+      <connections>
+        <connection id="c5c36b4a-8b27-4b4b-8807-00e209c73322" name="PMSandbox">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="b89c77bf-8f1e-4842-b880-da7ff93fcc77" url="tm:projectName=Load;projectKey=INS-1;clientId={clientId};clientSecret={clientSecret};callbackUrl={callbackUrl};environment=SANDBOX;accessToken={accessToken};refreshToken={refreshToken};apiLoginUrl=https://d20000000m8sbeai--mpintsand.sandbox.my.salesforce.com;identityServiceUrl=https://test.salesforce.com/id/00D3O0000005jM0UAI/005200000041qGzAAI"/>
+          </connectionUrls>
+        </connection>
+      </connections>
+    </connectionClass>
   </connectionClasses>
   <browserConfigurations>
     <browserConfiguration adjustBrowserWidthForChromeIde="true" browserHeight="0" browserWidth="0" name="Full Screen">
@@ -100,4 +110,7 @@
       </devices>
     </browserProvider>
   </browserProviders>
+  <associations>
+    <association assocationType="TM.TEST_PROJECT" connectionId="c5c36b4a-8b27-4b4b-8807-00e209c73322" entityKey="a0q3O00000VHlqcQAD"/>
+  </associations>
 </testProject>

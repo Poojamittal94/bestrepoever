@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<planFolder>
+<testPlan>
   <planSettings/>
   <planFeatures/>
-</planFolder>
+  <associations>
+    <association assocationType="TM.TEST_SUITE" connectionId="c5c36b4a-8b27-4b4b-8807-00e209c73322" entityKey="a0w3O00000KEF2XQAX"/>
+  </associations>
+</testPlan>

@@ -2,4 +2,7 @@
 <testPlanInstance testCasePath="tests/Assertion &amp; Buttons on PN1 LV-REG-5284.testcase">
   <planSettings/>
   <planFeatures/>
+  <associations>
+    <association assocationType="TM.TEST_SUITE_CASE" connectionId="c5c36b4a-8b27-4b4b-8807-00e209c73322" entityKey="a0v3O00000A8WhAQAV"/>
+  </associations>
 </testPlanInstance>
